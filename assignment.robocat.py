@@ -14,7 +14,7 @@ def openmatrix():
 	with open(filename) as inputfile:				#open file
 	    for row in csv.reader(inputfile):				#loops throug every row
 	        matrix.append(map(int,row))				#appends every row to new list 
-	return matrix       						#and stores it as an integer
+	return matri							#and stores it as an integer
 def calc(matrix) :										
 	smallest = 0
 	permus = list(permutations(matrix))				#finds all permutations of the matrix
